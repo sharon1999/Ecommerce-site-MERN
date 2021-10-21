@@ -1,4 +1,4 @@
-import mongoose from 'moongoose'
+import mongoose from 'mongoose'
 
 const reviewSchema = mongoose.Schema({
     name :{type:String,required:true},
